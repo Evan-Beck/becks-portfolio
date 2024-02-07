@@ -1,4 +1,4 @@
-import "./intro.css";
+import "./introduction.css";
 
 import { FaAward } from "react-icons/fa";
 import React from "react";

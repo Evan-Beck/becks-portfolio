@@ -1,23 +1,27 @@
+// css import. 
 import './contact.css';
 
+// hooks from react for email icon from react-icons.
 import React, { useRef, useState } from 'react';
 
+// Import for emailjs to send emails directly from web browser. 
 import { MdOutlineEmail } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
     const [message, setMessage] = useState(false);
+    //useref to reference the form DOM element for email submission. 
     const formRef = useRef();
     const handleSubmit = (e) => {
       e.preventDefault();
       setMessage(true);
       emailjs
         .sendForm(
-          'service_k2qawqh',
-          'template_c6rkpn6',
-          formRef.current,
-          'X7K7ebhIeOy3YwHki'
+          'service_k2qawqh', //EmailJS service ID.
+          'template_c6rkpn6', // EmailJS template ID.
+          formRef.current, // Form element. 
+          'X7K7ebhIeOy3YwHki' // EmailJS user ID. 
         )
         .then(
             (result) => {
@@ -30,6 +34,8 @@ const Contact = () => {
 
           e.target.reset();
   };
+
+  //JSX for rendering contact selection on page. 
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -40,12 +46,14 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
+            // Email icon. 
+            <MdOutlineEmail className="contact__option-icon" /> 
             <h4>Email</h4>
             <h5>ebeck703@gmail.com</h5>
             <a href="ebeck703@gmail.com">Send a message</a>
           </article>
         </div>
+        // Form to handle submitting the contact info. 
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
             type="text"
