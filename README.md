@@ -7,3 +7,6 @@ recent applications. Here, you will find a quick summary about myself, a link to
 
 # Screenshot and link to live server
 
+https://becks-portfolio.netlify.app/
+https://github.com/Evan-Beck/becks-portfolio
+![Portfolio](PortfolioB.png)
