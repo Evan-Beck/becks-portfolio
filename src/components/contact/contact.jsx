@@ -46,14 +46,14 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            // Email icon. 
+        
             <MdOutlineEmail className="contact__option-icon" /> 
             <h4>Email</h4>
             <h5>ebeck703@gmail.com</h5>
             <a href="ebeck703@gmail.com">Send a message</a>
           </article>
         </div>
-        // Form to handle submitting the contact info. 
+      
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
             type="text"
