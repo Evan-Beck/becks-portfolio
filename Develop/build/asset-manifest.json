@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13385237.css",
+    "main.js": "/static/js/main.5b14215f.js",
+    "static/media/TF2.png": "/static/media/TF2.a6f01350a366981ce049.png",
+    "static/media/me.jpg": "/static/media/me.2a3cc44d7e0b49d0784f.jpg",
+    "static/media/Your-Nutrition-Radar.png": "/static/media/Your-Nutrition-Radar.52da3da562bc12ccb8db.png",
+    "static/media/ATMGUI.png": "/static/media/ATMGUI.334cc5df8c1469af6b3d.png",
+    "index.html": "/index.html",
+    "static/media/Evan-Beck-Resume.pdf": "/static/media/Evan-Beck-Resume.31d6cfe0d16ae931b73c.pdf",
+    "main.13385237.css.map": "/static/css/main.13385237.css.map",
+    "main.5b14215f.js.map": "/static/js/main.5b14215f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13385237.css",
+    "static/js/main.5b14215f.js"
+  ]
+}
