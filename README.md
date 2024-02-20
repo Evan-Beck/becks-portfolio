@@ -9,4 +9,4 @@ recent applications. Here, you will find a quick summary about myself, a link to
 
 https://becks-portfolio.netlify.app/
 https://github.com/Evan-Beck/becks-portfolio
-![Portfolio](PortfolioB.png)
+![Screenshot](2024-02-20_13-42-51.png)

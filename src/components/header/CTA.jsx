@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/Evan-Beck-Resume.pdf';
+import CV from '../../assets/Evan-C-Beck-Resume.pdf';
 
 
 const CTA = () => {
@@ -15,4 +15,9 @@ const CTA = () => {
   );
 };
 
+
+
+
+
 export default CTA;
+
